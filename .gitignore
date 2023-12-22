@@ -1,0 +1,16 @@
+env
+.env
+*.egg-info
+output
+tmp*
+__pycache__
+*.out
+node_modules
+.vscode
+docs/build
+config.mk
+*.orig*
+*.pth
+*.ckpt
+.pdm-python
+.pytest_cache

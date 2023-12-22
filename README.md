@@ -5,7 +5,7 @@ The purpose of this repo is to provide a handful of mammograms for unit testing,
 ## Use
 
 ```python
-from test_mammograms import gen_cases
+from mammograms import gen_cases
 
 for case in gen_cases():
     for view, dicom_path in case.items():

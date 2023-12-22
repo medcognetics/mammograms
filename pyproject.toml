@@ -38,7 +38,7 @@ use_parentheses = false
 
 [tool.pdm.version]
 source = "file"
-path = "test_mammograms/version.py"
+path = "mammograms/version.py"
 
 [tool.pdm.dev-dependencies]
 test = ["pytest", "pytest-mock", "pytest-cov", "coverage"]

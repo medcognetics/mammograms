@@ -1,7 +1,7 @@
 import re
 from typing import Final
 
-from test_mammograms.mammograms import *
+from mammograms.mammograms import *
 
 
 TECH_ID: Final[str] = "tech"

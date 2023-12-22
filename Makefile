@@ -1,4 +1,4 @@
-PROJECT=test_mammograms
+PROJECT=mammograms
 PYTHON=pdm run python
 CODE_DIRS=$(PROJECT) tests util
 LINE_LEN=120

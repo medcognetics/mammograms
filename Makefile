@@ -20,7 +20,7 @@ types: node_modules
 	pdm run npx --no-install pyright tests $(PROJECT)
 
 test:
-	$(PYTHON) -m pytest -s -v tests
+	$(PYTHON) -m pytest -s -v tests --cov=./$(PROJECT) --cov-report=xml
  
 check:
 	$(MAKE) style

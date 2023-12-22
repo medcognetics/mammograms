@@ -14,3 +14,5 @@ config.mk
 *.ckpt
 .pdm-python
 .pytest_cache
+.coverage
+coverage.xml

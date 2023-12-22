@@ -3,7 +3,7 @@ requires = ["pdm-pep517>=1.0.0"]
 build-backend = "pdm.pep517.api"
 
 [project]
-name = "test-mammograms"
+name = "mammograms"
 description = ""
 requires-python = ">=3.10"
 authors = [{ name = "MedCognetics, Inc." }]

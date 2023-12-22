@@ -58,4 +58,4 @@ update:
 
 circleci:
 	circleci config validate 
-	circleci local execute --job test
+	circleci local execute test

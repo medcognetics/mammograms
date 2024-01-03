@@ -1,7 +1,6 @@
 PROJECT=mammograms
 PYTHON=pdm run python
 CODE_DIRS=$(PROJECT) tests util
-LINE_LEN=120
 
 style:
 	$(PYTHON) -m autoflake -r -i $(CODE_DIRS)
@@ -17,7 +16,7 @@ node_modules:
 	npm install
 
 types: node_modules
-	pdm run npx --no-install pyright tests $(PROJECT)
+	pdm run npx --no-install pyright $(CODE_DIRS)
 
 test:
 	$(PYTHON) -m pytest -s -v tests --cov=./$(PROJECT) --cov-report=xml
